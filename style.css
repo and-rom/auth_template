@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height: 100%;
+}
+body {
+	font: 12px/18px Arial, Tahoma, Verdana, sans-serif;
+	height: 100%;
+}
+a {
+	color: blue;
+	outline: none;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+p {
+	margin: 0 0 18px
+}
+img {
+	border: none;
+}
+input {
+	vertical-align: middle;
+}
+
+#wrapper {
+	width: 100%;
+	min-width: 1000px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+	height: 50px;
+	background:#FFE680;
+	position:relative;
+}
+.login {
+	position:absolute;
+	bottom:0;
+	right:0;
+	padding-right:5px;
+}
+.login-form FIELDSET {
+	border:0px;
+}
+.form-text {
+	text-align:right;
+	margin:0;
+	padding:0;
+}
+.form-link {
+	padding-left:5px;
+}
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+	padding: 0 0 50px;
+}
+
+#reg-form {
+	margin:25px 0 0 25px;
+	font-size:1em;
+}
+#reg-form legend {
+	margin-left:4px;
+	font-size:1.1em;
+}
+#reg-form fieldset {
+	width:45em;
+	border:solid 1px black;
+}
+#reg-form label {
+	float:left;
+	width:10em;
+	text-align:right;
+}
+#reg-form input {
+	width:34em;
+	padding:0;
+	font-size:100%;
+}
+#reg-form .noresize {
+	width:auto;
+}
+#reg-form .submit {
+    margin-left:10.1em;
+}
+#form-setup,#form-setup FIELDSET {
+margin:5px;
+padding:5px;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+	margin: -50px auto 0;
+	min-width: 1000px;
+	height: 50px;
+	background: #BFF08E;
+	position: relative;
+}
