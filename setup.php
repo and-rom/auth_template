@@ -98,7 +98,7 @@ if (empty($_POST) | !isset($ok)) {
 	</fieldset>
 	<fieldset>
 	  <legend>Таблица</legend>
-	  <label for="tb_name">Имя таблицу: </label><input id="tb_name" type="text" name="tb_name" value="<?=(!empty($tbname) ? $tbname : '')?>" />
+	  <label for="tb_name">Имя таблицы: </label><input id="tb_name" type="text" name="tb_name" value="<?=(!empty($tbname) ? $tbname : '')?>" />
 	  <input id="cr_tb_cb" type="checkbox" name="cr_tb_cb"  <?=(!empty($cr_tb_cb) ? " checked=\"checked\"" : '')?>/><label for="cr_tb_cb">Создать</label>
 	  <p><?=(!empty($err['tb']) ? $err['tb'] : '&nbsp;')?></p>
 	</fieldset>
